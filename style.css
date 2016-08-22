@@ -1,1 +1,37 @@
-body {background-color: blue;}
+body {background-image: url("coolbg.JPG");
+background-repeat: no-repeat;
+background-size: cover;
+background-color: blue;
+min-width: 500px;}
+
+h1#andrewtitle {font-family: Arial, Helvetica, sans-serif; color:white;}
+
+nav {padding: 15px;
+border-top: solid;
+border-style: dashed;
+background-color: white;
+}
+
+.centered{padding: 5px; margin: auto; margin-left: 10px; position: relative; width: 50%; float: left; display: inline-block;}
+
+p {color:white;}
+
+div#imageholder {float:left;}
+
+h4{color: white;}
+
+footer {   text-align: center;
+   position: relative; margin-top: 30%; align: centered;}
+
+   a:visited {
+    color: pink;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: red;
+        margin-right: 50%;
+    }
+
+
+}
